@@ -48,3 +48,13 @@ VITE_BASEPATH="/app"
 VITE_HOSTNAME="sub.domain.tld"
 VITE_API_BASEPATH="/api"
 ```
+
+### Docker
+
+```
+docker build -t fastapi-react .
+```
+
+```
+docker run --rm -p 8000:8000 fastapi-react
+```
